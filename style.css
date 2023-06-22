@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1216px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  background-image: url("./images/hero-bg.png"), linear-gradient(black, black);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+nav {
+  padding: 44px 0;
+}
+
+nav table {
+  width: 100%;
+}
+nav table td {
+  width: calc(100% / 3);
+}
+
+nav table td:nth-child(2) {
+  text-align: center;
+}
+
+nav table td:nth-child(3) {
+  text-align: right;
+}
+
+nav table a {
+  padding: 8px 20px;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 48px;
+  text-decoration: none;
+}
+.hero {
+  width: 662px;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+.hero p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  padding-right: calc(662px - 541px);
+  margin-bottom: 24px;
+}
+.hero .line {
+  border-top: 2px solid #ffffff;
+  margin-bottom: 18px;
+}
+.hero {
+  padding-bottom: 118px;
+}
+
+.hero a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero a img {
+  margin-bottom: -9px;
+  margin-right: 16px;
+}
+
+.serch-filter {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 34px;
+}
+/* .find_a_vehicle{
+    width: 100%;
+} */
+.container table{
+     width: 100%;
+}
+table tr td input{
+    width: 80%;
+   border-radius: 5px;
+}
+table tr td {
+    margin-bottom: 20px;
+}
+button{
+    width: 140px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    font-size: 15px
+}
+section h2{
+  text-align: left;
+}
+.brend{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brend1{
+    width: 200px;
+    height: 200px;
+    background: rgb(229, 224, 224);
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 100px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.moshinalar{
+    background-color: white;
+    text-align: center;
+    
+}
+section .moshinalar{
+  background-color: #f5f5f5;
+}
+h2{
+    text-align: left;
+    color: black; 
+}
+p{
+    text-align: center;
+    color: black;
+}
+.moshinalar button{
+  margin-bottom: 60px;
+  width: 400px;
+}
+.moshina1 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: auto;
+    background-color: white;
+}
+.moshinalar1{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+}
+
+.moshina{
+   background: white;
+   border-radius: 15px;
+   margin: 20px;
+   text-align: center; 
+  
+}
+.moshinalar h2{
+  text-align: center;
+  color: black;
+}
+    
+
+.moshina1{
+    text-align: center;
+    margin-left: 170px;
+}
+.moshinalar1 button{
+    width: 336px;
+    height: 48px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: auto;
+    background-color: white;
+}
+
+.nomi{
+  background-color: white;
+  text-align: center;
+
+}
+
+
+.nomi{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nomi1{
+  width: 200px;
+  height: 200px;
+  background: rgb(226, 222, 217);
+  border-radius: 10px;
+  margin: 10px;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.work{
+  text-align: center;
+  margin-top: 400px;
+}
+
+.work2{
+  margin-left: 20px;
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border-style: groove;
+}
+.work3{
+  margin-top: auto;
+  margin-right: 20px;
+  width: 590px;
+  border-radius: 10px;
+  text-align: center;
+  border-style: groove;
+}
+/* .work{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+.work table td{
+  border-spacing: 50px;
+}
